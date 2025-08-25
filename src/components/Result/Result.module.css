@@ -1,0 +1,11 @@
+.result {
+    display: flex; /* 子要素をフレックスコンテナにして横/縦方向に柔軟に配置できるようにする */
+    align-items: center; /* フレックスアイテムを縦方向の中央に揃える */
+    justify-content: center; /* フレックスアイテムを横方向の中央に揃える */
+    text-align: center; /* テキストを中央揃えにする */
+
+    .resultHighlight { /* SCSSのネスト構文。`.result .resultHighlight` に適用される想定 */
+        font-weight: bold; /* 文字を太字にする */
+        font-size: 30px; /* 文字サイズを30pxにする */
+    }
+}
